@@ -41,7 +41,7 @@ You may also see any lint errors in the console.
 </p>
 
 ## 📌 Screenshots:
-![home](/textwizard/img/home.png)
+![home](/img/home.png)
 
 
 <h2>📬 Contact</h2>
