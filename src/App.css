@@ -40,7 +40,7 @@ label{
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #111;
   font-weight: 600;
@@ -64,7 +64,7 @@ p #word, #char{
     color: #000000;
 }
 #word{
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 .btns {
   display: flex;
@@ -74,12 +74,12 @@ p #word, #char{
 }
 .btns .btn {
   position: relative;
-  width: 100px;
+  width: 95px;
   border: none;
   outline: none;
-  padding: .6rem 0.5rem;
+  padding: .6rem 0.3rem;
   border-radius: .2rem;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   background: #161616;
   color: #fff;
   cursor: pointer;

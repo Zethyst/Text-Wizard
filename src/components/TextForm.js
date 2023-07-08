@@ -54,7 +54,7 @@ export default function TextForm(props) {
             <div className="container">
                 <h1>{props.heading}</h1>
                 <div className="form-group my-3">
-                    <textarea className="form-control" value={text} onChange={handleChange} placeholder="Enter Text Here..." id="exampleFormControlTextarea1" rows="8" cols={60}></textarea>
+                    <textarea className="form-control" value={text} onChange={handleChange} placeholder="Enter Text Here..." id="exampleFormControlTextarea1" rows="7" cols={60}></textarea>
                 </div>
                 <div className="btns">
                     <button disabled={text.length===0} className="btn stop mx-2 my-2" onClick={handleupClick}>UPPER CASE</button>
