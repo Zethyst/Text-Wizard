@@ -1,11 +1,8 @@
-# Getting Started with Create React App
+<h1 align="center">Text Wizard: A Comprehensive Text Utilities Website</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Welcome to Text Wizard, a website designed to boost your productivity and simplify your text-related tasks. Text Wizard provides a range of powerful tools and functionalities to manipulate, analyze, and transform text efficiently, all within a user-friendly interface.</p>
 
-## Available Scripts
-
-In the project directory, you can run:
-
+[Visit Now](https://zethyst.github.io/Text-Wizard/) 🚀
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -14,57 +11,47 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## 🖥️ Tech Stack
+**Frontend:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
 
-### `npm run build`
+**Backend:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Deployed On:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Vercel](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
-### `npm run eject`
+## 📌 Key Features:
+<dl>
+<dt>Text Manipulation:</dt><dd> Seamlessly manipulate text with tools for formatting, capitalization, insights, and more. Effortlessly modify and refine your text to meet your specific requirements.</dd>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<dt>Word Count and Character Analysis:</dt><dd> Obtain accurate word count and character analysis for your text, enabling you to assess document length, readability, and other valuable insights.</dd>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<dt>Case Conversion:</dt><dd> Convert text between lowercase, uppercase, capital case, giving you full control over the desired text formatting.</dd>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<dt>Responsive Design:</dt><dd> Text Wizard adapts flawlessly to different screen sizes and devices. Whether you're using a desktop, tablet, or mobile device, the responsive design ensures optimal user experience and accessibility.</dd>
+</dl>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>Text Wizard empowers you to elevate your text-related tasks to new levels of efficiency and accuracy. Whether you're a writer, coder, student, or professional, this website offers a suite of essential text utilities designed to simplify your workflow.
+</p>
 
-## Learn More
+## 📌 Screenshots:
+![home](/textwizard/img/home.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>📬 Contact</h2>
 
-### Code Splitting
+If you want to contact me, you can reach me through below handles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshat-jaiswal-4664a2197)
 
-### Analyzing the Bundle Size
+© 2023 Akshat Jaiswal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
