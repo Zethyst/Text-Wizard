@@ -6,10 +6,9 @@ import TextForm from './components/TextForm';
 import React, { useState } from 'react';
 
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -43,19 +42,17 @@ function App() {
   }
   return (
     <>
-    <Router>
+    <BrowserRouter>
      <Navbar title="Text Wizard" aboutText="About us" mode={mode} toggleMode={changeTheme}  />
      <Alert alert={alert}/>
       <Routes>
         {/* /users -- component 1
             /users/home -- component 2, output will be component 1 if not used exact path
         */}
-          <Route exact path="/about" element={<About mode={mode}/>}>
-          </Route>
-          <Route exact path="/" element={<TextForm heading="Enter the text to analyze below: " showAlert={showAlert} mode={mode}/>}>
-          </Route>
+          <Route exact path="/about" element={<About mode={mode}/>}/>
+          <Route exact path="/Text-Wizard" element={<TextForm heading="Enter the text to analyze below: " showAlert={showAlert} mode={mode}/>}/>
         </Routes>
-    </Router>
+    </BrowserRouter>
     </>
   );
 }
