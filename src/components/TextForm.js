@@ -18,7 +18,7 @@ export default function TextForm(props) {
         props.showAlert("Converted to lowercase.","success");
     }
     const handlecapClick = (e) => {
-        if (text!="") {
+        if (text!=="") {
             const words = text.split(" ");
             for (let i = 0; i < words.length; i++) {
                 words[i] = words[i][0].toUpperCase() + words[i].substr(1).toLowerCase();
@@ -60,7 +60,7 @@ export default function TextForm(props) {
                     <button disabled={text.length===0} className="btn stop mx-2 my-2" onClick={handleupClick}>UPPER CASE</button>
                     <button disabled={text.length===0} className="btn stop mx-2 my-2" onClick={handleloClick}>lower case</button>
                     <button disabled={text.length===0} className="btn stop mx-2 my-2" onClick={handlecapClick}>Capital Case</button>
-                    <button disabled={text.length===0} className="btn stop mx-2 my-2" onClick={handleExtraSpace}>Remove Extra Spaces</button>
+                    <button id="extra" disabled={text.length===0} className="btn stop mx-2 my-2" onClick={handleExtraSpace}>Remove Extra Spaces</button>
                     <button disabled={text.length===0} className="btn mx-2 my-2" onClick={handleCopy}>Copy To Clipboard</button>
                 </div>
                 <p id='word'>{words()} words and {text.length} characters</p>

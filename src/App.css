@@ -69,8 +69,10 @@ p #word, #char{
 .btns {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   /* background: yellow; */
   margin: 0 3rem;
+  width: 100%;
 }
 .btns .btn {
   position: relative;
@@ -106,18 +108,27 @@ p #word, #char{
   color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width:570px) {
+@media screen and (max-width:480px) {
     html {
         font-size: 65%;
+    }
+    .btns{
+      justify-content: space-evenly;
     }
 }
 @media screen and (max-width:768px) {
   html {
       font-size: 82.5%;
   }
+  #extra{
+    display: none;
+  }
 }
-@media screen and (max-width:460px) {
+@media screen and (max-width:380px) {
   html {
       font-size: 60%;
+  }
+  .btns{
+    justify-content: space-evenly;
   }
 }
