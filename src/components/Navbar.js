@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 //type rfc emmet
 export default function Navbar(props) {
   return (
-    <nav className="navbar nv navbar-expand-lg navbar-dark">
+    <nav className="navbar nv navbar-expand-lg navbar-dark" >
   <Link className={`navbar-brand text-${props.mode==="Light"?"dark":"light"}`} to={"/Text-Wizard"}>{props.title}</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+    <span className="navbar-toggler-icon" onClick={collapse}></span>
   </button>
 
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className="collapse navbar-collapse" id="navbarSupportedContent" >
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
         <Link className={`nav-link text-${props.mode==="Light"?"dark":"light"}`} to={"/Text-Wizard"}>Home <span className="sr-only">(current)</span></Link>
@@ -42,4 +42,10 @@ Navbar.propTypes = {
 Navbar.defaultProps = {
       title:"Enter text here",
       aboutText:"Enter about here"
+}
+
+function collapse(){
+  const navbarSupportedContent=document.querySelector("#navbarSupportedContent");
+  navbarSupportedContent.classList.toggle("show");
+  // alert(navbarSupportedContent)
 }

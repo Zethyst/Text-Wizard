@@ -43,7 +43,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-     <Navbar title="Text Wizard" aboutText="About us" mode={mode} toggleMode={changeTheme}  />
+     <Navbar title="Text Wizard" aboutText="About" mode={mode} toggleMode={changeTheme}  />
      <Alert alert={alert}/>
       <Routes>
         {/* /users -- component 1

@@ -124,11 +124,3 @@ p #word, #char{
     display: none;
   }
 }
-@media screen and (max-width:380px) {
-  html {
-      font-size: 60%;
-  }
-  .btns{
-    justify-content: space-evenly;
-  }
-}
