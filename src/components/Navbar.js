@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar(props) {
   return (
     <nav className="navbar nv navbar-expand-lg navbar-dark" >
-  <Link className={`navbar-brand text-${props.mode==="Light"?"dark":"light"}`} to={"/Text-Wizard"}>{props.title}</Link>
+  <Link style={{fontWeight:"600"}} className={`navbar-brand text-${props.mode==="Light"?"dark":"light"}`} to={"/Text-Wizard"}>{props.title}</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon" onClick={collapse}></span>
   </button>
